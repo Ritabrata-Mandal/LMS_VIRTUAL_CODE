@@ -21,7 +21,10 @@ app.use(cookieParser());
 
 //Cross-Origin Resource Sharing
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin: [
+        "http://localhost:5173",
+        "https://lms-virtual-code-frontend.onrender.com"
+    ],
     credentials:true
 }))
 
