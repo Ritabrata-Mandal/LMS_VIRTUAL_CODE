@@ -30,8 +30,10 @@ const Home = () => {
           <button className='px-[20px] py-[10px] border-2 lg:border-white border-black lg:text-white text-black rounded-[10px] text-[18px] font-light flex gap-2 cursor-pointer' onClick={()=>navigate('/allcourses')}><p className='mt-[2px]'>View All Courses</p>
           </button>
 
-          <button className='px-[20px] py-[10px] lg:bg-white bg-black lg:text-black text-white rounded-[10px] txet-[18px] font-light flex gap-2 cursor-pointer' onClick={()=>navigate('/search')}><p className='mt-1  font-semibold ai-text'>Search with AI ✨</p>
-          </button>
+          <div className="ai-border inline-block">
+            <button className='px-[20px] py-[10px] lg:bg-white bg-black lg:text-black text-white rounded-[10px] txet-[18px] font-light flex gap-2 cursor-pointer' onClick={()=>navigate('/search')}><p className='mt-1  font-semibold ai-text'>Search with AI ✨</p>
+            </button>
+          </div>
 
 
           {/* <button className='px-[20px] py-[10px] border-2 lg:border-white border-black lg:text-white text-black rounded-[10px] text-[18px] font-light flex gap-2 cursor-pointer' onClick={()=>navigate('/allcourses')}><p className='mt-[2px]'>View All Courses</p> <SiViaplay className='w-[30px] h-[30px] lg:fill-white fill-black'/>
