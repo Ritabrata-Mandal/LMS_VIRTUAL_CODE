@@ -86,9 +86,9 @@ const Nav = () => {
                     { !userData  && <IoPersonCircle className='w-[80px] h-[80px] cursor-pointer fill-white'/>}
 
                     {/* user icon when logged in*/}
-                    { userData?.photoUrl ? <img src={userData?.photoUrl} className='w-[75px] h-[75px] rounded-full text-white flex items-center justify-center text-[20px] border-2 bg-black border-white cursor-pointer object-cover'/>: <div className='w-[70px] h-[70px] rounded-full text-white flex items-center justify-center text-[20px] border-2 bg-black border-white cursor-pointer' >
+                    { userData && (userData?.photoUrl ? <img src={userData?.photoUrl} className='w-[75px] h-[75px] rounded-full text-white flex items-center justify-center text-[20px] border-2 bg-black border-white cursor-pointer object-cover'/>: <div className='w-[70px] h-[70px] rounded-full text-white flex items-center justify-center text-[20px] border-2 bg-black border-white cursor-pointer' >
                         {userData?.name?.slice(0,1).toUpperCase()}
-                    </div>}
+                    </div>)}
 
                     {/* My profile */}
                     <div className='w-[200px] h-[65px]  border-2 border-white text-white bg-black rounded-[10px] text-[18px] font-light cursor-pointer flex items-center justify-center' onClick={()=>navigate('/profile')}>My Profile</div>

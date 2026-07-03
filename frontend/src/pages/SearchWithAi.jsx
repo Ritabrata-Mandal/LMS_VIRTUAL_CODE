@@ -83,7 +83,7 @@ const SearchWithAi = () => {
 
     {/* search container */}
 
-    <div className='bg-white shadow-xl rounded-3xl p-6 sm:p-8 w-full max-w-2xl text-center relative'>
+    <div className='bg-white shadow-xl rounded-3xl p-6 sm:p-8 w-full max-w-2xl text-center relative mb-4'>
 
         <FaArrowLeftLong className='text-black w-[22px] h-[22px] cursor-pointer absolute' onClick={()=>navigate('/')}/>
 
