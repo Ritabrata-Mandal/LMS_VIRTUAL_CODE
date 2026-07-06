@@ -43,7 +43,9 @@ const Nav = () => {
                 <img src={logo} alt="" className='w-[60px] rouneded-[5px] border-2 border-white cursor-pointer' />
             </div>
 
-            <p className='text-sm text-gray-400 text-center'>Developed by Ritabrata Mandal(CSE-NIT DGP)</p>
+            <p className="flex-1 text-center text-sm text-gray-300 px-4">
+                Developed by Ritabrata Mandal (CSE, NIT Durgapur)
+            </p>
 
             {/* user buttons */}
             <div className='w-[30%] lg:flex items-center justify-center gap-4 relative hidden'>
