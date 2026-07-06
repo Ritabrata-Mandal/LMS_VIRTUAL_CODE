@@ -1,6 +1,6 @@
-# Virtual Code LMS
+# Virtual Courses LMS
 
-🎓 **Virtual Code LMS** is a full-stack Learning Management System (LMS) built using the **MERN Stack**. It enables educators to create and manage courses while allowing students to enroll, learn through video lectures, leave reviews, and search for courses using AI-powered recommendations.
+🎓 **Virtual Courses LMS** is a full-stack Learning Management System (LMS) built using the **MERN Stack**. It enables educators to create and manage courses while allowing students to enroll, learn through video lectures, leave reviews, and search for courses using AI-powered recommendations.
 
 ---
 
